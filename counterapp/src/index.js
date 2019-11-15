@@ -3,20 +3,25 @@ import ReactDOM from 'react-dom';
 //import './index.css';
 //import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.min.css';   
+import 'bootstrap/dist/css/bootstrap.min.css';  
+import "react-datepicker/dist/react-datepicker.css"; 
 import Simpleform from './components/form';
 //import Counter from './components/counter';
 //import Timer from './components/functions';
 //import Message from './components/message';
 //import Count from './components/increment';
 //import Event from './components/events';
-import Binding from './components/evenntbind';
+//import Binding from './components/evenntbind';
+//import Datepicker from './components/datepicker';
+//import MultipleChoice from './components/Adding';
 
 class Index   extends Component {
  render() { 
         return (
           <div className="index">
-               <Simpleform />
+                <Simpleform />
+               {/* <Datepicker /> */} 
+               {/* <MultipleChoice />   */}
                
           </div>
           
